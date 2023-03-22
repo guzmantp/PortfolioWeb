@@ -18,7 +18,7 @@ nav {
     padding-left: 80px;
   }
 
-  #linkedinIcon, #instagramIcon {
+  .smIcon {
     height: 20px;
   }
   
@@ -68,4 +68,5 @@ nav {
     font-size: 15pt;
     font-weight: 200;
   }
+
   
