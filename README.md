@@ -1,7 +1,5 @@
 # PortfolioWeb
 
-<h1>Portfolio Web</h1>
-
 <h2>Instrucciones web</h2>
 
 <p>
