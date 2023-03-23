@@ -72,3 +72,17 @@
 
 }
 
+#cuadroBlancoResaltado {
+    position: absolute;
+    height: 145px;
+    width: 100%;
+}
+
+
+#mainMenu-hola:hover > #cuadroBlancoResaltado {
+    top: 25%;
+}
+#mainMenu-soy:hover > #cuadroBlancoResaltado{
+    top: 40%;
+}
+

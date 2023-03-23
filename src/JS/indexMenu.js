@@ -1,15 +1,38 @@
-holaText = document.getElementById("mainMenu-hola");
-soyText = document.getElementById("mainMenu-soy");
-guzmanText = document.getElementById("mainMenu-guzman");
+const holaText = document.getElementById("mainMenu-hola");
+const soyText = document.getElementById("mainMenu-soy");
+const guzmanText = document.getElementById("mainMenu-guzman");
+const resaltado = document.getElementById("cuadroBlancoResaltado")
 
-holaText.addEventListener("mouseover", function(){
-    holaText.textContent = "Menu 1";
-});
+window.onload = function(){
 
-soyText.addEventListener("mouseover", function(){
-    soyText.textContent = "Menu 2";
-});
+    holaText.onmouseover = function(){
+        holaText.textContent = 'Proyectos';
+        resaltado.style.top = "23%"
+        resaltado.style.backgroundImage = "linear-gradient(to right, #ffffff00, #ffffff 50%, #ffffff00 90%)"
+    };
 
-guzmanText.addEventListener("mouseover", function(){
-    guzmanText.textContent = "Menu 3";
-});
+    holaText.onmouseout = function(){
+        holaText.innerHTML = 'Hola';
+        resaltado.style.backgroundImage = "linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0))"
+    };
+
+    soyText.onmouseover = function(){
+        soyText.textContent = 'Sobre mi';
+        resaltado.style.top = "42%"
+        resaltado.style.backgroundImage = "linear-gradient(to right, #ffffff00, #ffffff 50%, #ffffff00 90%)"
+    };
+
+    soyText.onmouseout = function(){
+        soyText.innerHTML = 'Soy';
+        resaltado.style.backgroundImage = "linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0))"
+    };
+
+    guzmanText.onmouseover = function(){
+        guzmanText.textContent = 'Mi mundo';
+    };
+
+    guzmanText.onmouseout = function(){
+        guzmanText.innerHTML = 'Guzmán';
+    };
+}
+
