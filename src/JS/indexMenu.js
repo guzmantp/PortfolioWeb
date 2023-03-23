@@ -17,7 +17,7 @@ window.onload = function(){
     };
 
     soyText.onmouseover = function(){
-        soyText.textContent = 'Sobre mi';
+        soyText.textContent = "Sobre mí";
         resaltado.style.top = "42%"
         resaltado.style.backgroundImage = "linear-gradient(to right, #ffffff00, #ffffff 50%, #ffffff00 90%)"
     };

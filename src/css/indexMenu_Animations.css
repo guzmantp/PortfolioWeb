@@ -1,0 +1,23 @@
+#fotoMiaPrincipal {
+    animation-name: fotoMiaPrincipal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes fotoMiaPrincipal {
+   0% {right: 0%;}
+   100% {right: 14%;} 
+}
+
+#indexMenu ul {
+    animation-name: indexMenu_Menu;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes indexMenu_Menu {
+    0% {left: 0%;}
+   100% {left: 22%;}
+}
