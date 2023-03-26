@@ -26,3 +26,21 @@ nav ul li a {
   color: #3B006D;
   line-height: 100%;
 }
+
+.MiMundo-TextI {
+  font-family: 'Poppins', sans-serif;
+  font-size: 70pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.MiMundo-TextPurpleI {
+  font-family: 'Poppins', sans-serif;
+  font-size: 110pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+
+

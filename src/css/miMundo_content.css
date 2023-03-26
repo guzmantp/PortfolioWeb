@@ -1,0 +1,117 @@
+
+/*----------------- Diesño Gráfico ----------------*/
+
+.MiMundo-ContentContainer{
+    height: 600px;
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.MiMundo_TextContainterI {
+    text-align: left;
+    width: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 11%;
+}
+
+.MiMundo_TextContainterD {
+    text-align: right;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 49%;
+}
+
+#MiMundo_DiseñoGrafico_Front {
+    position: absolute;
+    height: 600px;
+    right: 8%;
+    padding-top: 1%;
+}
+
+#MiMundo_DiseñoGrafico_Back {
+    position: absolute;
+    height: 600px;
+    right: 0;
+}
+
+#MiMundo_Motor {
+    position: absolute;
+    height: 500px;
+    margin: auto;
+}
+
+#MiMundo_Impresion3D_Back {
+    position: absolute;
+    height: 600px;
+    right: 9%;
+}
+
+#MiMundo_Impresion3D_Front {
+    position: absolute;
+    height: 600px;
+    right: 2%;
+}
+
+#MiMundo_EventosOnline_Back {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+}
+
+#MiMundo_EventosOnline_Front {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+}
+
+#MiMundo_Tattoo_Back {
+    position: absolute;
+    height: 600px;
+    right: 2%;
+}
+
+#MiMundo_Tattoo_Front {
+    position: absolute;
+    height: 600px;
+    right: 0%;
+}
+
+#MiMundo_DJ {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+}
+
+#MiMundo_Iluminacion {
+    position: absolute;
+    height: 600px;
+    right: 0%;
+}
+
+#MiMundo_Soldadura {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+}
+
+#MiMundo_Fotografia {
+    position: absolute;
+    height: 600px;
+    right: 0%;
+}
+
+#MiMundo_Informatica {
+    position: absolute;
+    height: 600px;
+    left: 0%;
+}
+
+#MiMundo_Codigo {
+    position: absolute;
+    height: 600px;
+    right: 0%;
+}
+
