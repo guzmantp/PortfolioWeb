@@ -58,4 +58,12 @@ nav ul li a {
   line-height: 100%;
 }
 
+#form-Container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  color: #262626;
+  line-height: 110%;
+}
+
 
