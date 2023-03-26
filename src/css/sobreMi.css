@@ -1,0 +1,59 @@
+.headerContainer {
+    height: 600px;
+    display: flex;
+    border-bottom: #3B006D;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    position: relative;
+}
+
+.headerTextContainer {
+    position: relative;
+    padding-top: 5%;
+    margin: auto;
+    height: auto;
+    width: 1000px;
+    text-align: left;
+}
+
+#fotoMia-Container {
+    position: absolute;
+    height: 600px;
+    width: 1000px;
+    right: 22%;
+}
+
+#cuadroBlanco {
+    background-color: white;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    height: 110px;
+    width: 45%;
+    top: 61%;
+    right: 0px;
+
+}
+
+#fotoMiaPrincipal {
+    position: absolute;
+    height: 550px;
+    bottom: 0px;
+    right: 0;
+}
+
+
+
+.headerText-Black {
+    
+}
+
+.headerText-BlackPurple {
+}
+
+#quienSoy-Container {
+    height: 1000px;
+    width: 100%;
+
+}
+
+
