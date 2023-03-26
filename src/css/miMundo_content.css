@@ -8,6 +8,13 @@
     align-items: center;
 }
 
+#MiMundo_LastModuleContainer{
+    height: 900px;
+    max-height: 900px;
+    display: flex;
+    align-items: center;
+}
+
 .MiMundo_TextContainterI {
     text-align: left;
     width: 45%;
@@ -113,5 +120,12 @@
     position: absolute;
     height: 600px;
     right: 0%;
+}
+
+#MiMundo_Nieve {
+    position: absolute;
+    height: 800px;
+    right: 0%;
+    align-self:self-end;
 }
 
