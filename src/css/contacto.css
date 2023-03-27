@@ -1,3 +1,28 @@
+.container-div{
+    margin: auto;
+    width: 750px;
+    height: auto;
+    text-align: left;
+    display: block;
+}
+
+#title-container{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#title-container div{
+    display: inline-flex;
+    align-items: baseline;
+    padding: 50px;
+}
+
+.container-separator{
+    margin: 100px;
+    width: 650px;
+}
+
 #form-Container{
     display: flex;
     height: 600px;

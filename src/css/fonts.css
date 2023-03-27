@@ -62,6 +62,21 @@ nav ul li a {
   line-height: 110%;
 }
 
+#Contacto-Title{
+  font-size: 50pt;
+  font-weight: 300;
+  color: #262626;
+  line-height: 110%;
+}
+
+#Contacto-TitlePurple{
+  font-size: 55pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+  padding-left: 20px;
+}
+
 
 
 
