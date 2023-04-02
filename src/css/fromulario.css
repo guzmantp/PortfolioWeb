@@ -19,14 +19,13 @@
 
 .formGroup {
     width: 600px;
-    margin-left: 0%;
     margin-top: 10px;
 }
 
 .input-box{
     font-size: 12pt;
     padding: 1%;
-    width: 95%;
+    width: 98%;
     border-radius: 5px;
     border-width: 1px;
     border-color: #760072;

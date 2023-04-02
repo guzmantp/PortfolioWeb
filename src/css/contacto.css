@@ -1,16 +1,14 @@
 .container-form{
     margin: auto;
-    width: 45%;
+    width: 750px;
     height: auto;
     text-align: left;
-    margin-left: 16%;
-    padding-bottom: 20px;
-    background-color: rgb(0, 255, 55);
+    display: block;
 }
 
 #title-container{
     width: auto;
-    text-align: left;
+    text-align: center;
     margin: auto;
     margin-left: 0%;
     padding-left: 0;
@@ -19,9 +17,10 @@
 #title-container div{
     display: inline-flex;
     align-items: baseline;
-    padding: 40px;
-    padding-left: 0;
-    margin-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: auto;
+    margin: auto;
 }
 
 .container-separator{
@@ -29,27 +28,7 @@
     width: 650px;
 }
 
-#form-Container{
-    display: flex;
-    height: 600px;
-    width: 100%;
-}
-
-#form-Container form {
+#form-Container {
     margin: auto;
-}
-
-#backgrounImagesContainer{
-    top: 0px;
-    width: 38%;
-    height: auto;
-    background-color: aqua;
-}
-
-#handbrakeDrawing{
-}
-
-#handbrakeRender{
-    height: 300px;
-    right: 0px;
+    width: 600px;
 }
