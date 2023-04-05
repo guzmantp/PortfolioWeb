@@ -1,47 +1,70 @@
-.headerContainer {
-    height: 600px;
-    display: flex;
-    border-bottom: #3B006D;
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    position: relative;
+
+body{
 }
 
-.headerTextContainer {
+#quienSoy-Container {
+    width: 100%;
+    background-color:brown;
+}
+
+.block-containers{
+    display: block;
+    background-color:rgb(0, 255, 55);
+    height: 1500px;
+    width: 100%;
+}
+
+#left-container{
     position: relative;
-    padding-top: 5%;
-    margin: auto;
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#right-container{
+    background-color: blueviolet;
+    width: 50%;
     height: auto;
-    width: 1000px;
-    text-align: left;
+    float: right;
 }
 
 #fotoMia-Container {
-    position: absolute;
-    height: 600px;
-    width: 1000px;
-    right: 22%;
-}
-
-#cuadroBlanco {
-    background-color: white;
-    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    height: 110px;
-    width: 45%;
-    top: 61%;
-    right: 0px;
-
+    border-style: solid;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    left: 10%;
 }
 
 #fotoMiaPrincipal {
-    position: absolute;
-    height: 550px;
+    height: 800px;
     bottom: 0px;
-    right: 0;
+    left: 0;
 }
 
+#table-container{
+    z-index: 20;
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
 
+#text-container{
+
+}
+
+.pContainer{
+
+}
+
+#bg-images{
+
+}
+
+.bg-image-container{
+    
+}
 
 .headerText-Black {
     
@@ -50,10 +73,6 @@
 .headerText-BlackPurple {
 }
 
-#quienSoy-Container {
-    height: 1000px;
-    width: 100%;
 
-}
 
 
