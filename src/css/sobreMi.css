@@ -30,15 +30,19 @@ body{
 }
 
 #fotoMia-Container {
-    border-style: solid;
     position: fixed;
+    border-style: solid;
     padding: 0%;
     margin: 0%;
     width: auto;
-    left: 10%;
+    left: 200px;
+    bottom: 0%;
 }
 
 #fotoMiaPrincipal {
+    border-style: solid;
+    position: absolute;
+    margin: 0%;
     height: 800px;
     bottom: 0px;
     left: 0;
