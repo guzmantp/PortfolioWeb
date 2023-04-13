@@ -92,6 +92,13 @@ body{
     display: flex;
 }
 
+.p-module a{
+    font-size: 20pt;
+    padding: 5%;
+    font-weight: 600;
+    color: #3B006D;;
+}
+
 .headerText-Black{
     margin: 20px;
 }
