@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
    
    window.addEventListener("scroll", function () { 
      const scroll = (window.pageYOffset || document.documentElement.scrollTop);
+
+     console.log(scroll + this.window.innerHeight);
+     console.log(leftContainer.offsetHeight);
       
     if(scroll + this.window.innerHeight  >= leftContainer.offsetHeight){
       fotoMiaContainer.style.position = "absolute";

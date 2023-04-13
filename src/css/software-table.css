@@ -1,0 +1,51 @@
+
+.table-module{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#table-container{
+    margin: auto;
+    width: 45%;
+}
+
+.separation-line{
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: rgb(236, 236, 236);
+    height: 10px;
+}
+
+.table-tittle{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#software-table{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#software-table td{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+#software-table tr{
+  
+}
+
+.software-name p{
+    font-size: 30pt;
+    text-align: left;
+}
+
+.software-logo{
+    height: 80px;
+}

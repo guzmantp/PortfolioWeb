@@ -77,6 +77,24 @@ nav ul li a {
   padding-left: 20px;
 }
 
+.sobreMi-p{
+  font-size: 15pt;
+}
+
+.tableTittle-Black{
+  font-size: 30pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.tableTittle-Purple{
+  margin-left: 15px;
+  font-size: 45pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
 
 
 
