@@ -8,6 +8,8 @@
 #table-container{
     margin: auto;
     width: 45%;
+    height: auto;
+    margin-top: 5%;
 }
 
 .separation-line{
@@ -23,6 +25,7 @@
     align-items: baseline;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 6.5%;
 }
 
 #software-table{
@@ -42,8 +45,9 @@
 }
 
 .software-name p{
-    font-size: 30pt;
+    font-size: 25pt;
     text-align: left;
+    padding-left: 10%;
 }
 
 .software-logo{
