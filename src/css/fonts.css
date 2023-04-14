@@ -8,6 +8,11 @@
   font-size: 14pt;
 }
 
+.container-separator{
+  margin: 100px;
+  width: 650px;
+}
+
 nav ul li a {
 
     font-size: 14pt;
@@ -90,6 +95,20 @@ nav ul li a {
 .tableTittle-Purple{
   margin-left: 15px;
   font-size: 45pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+.ProyectosText-Black{
+  margin-left: 40px;
+  font-size: 90pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.ProyectosText-Purple{
+  font-size: 110pt;
   font-weight: 700;
   color: #3B006D;
   line-height: 100%;

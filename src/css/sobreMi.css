@@ -70,7 +70,7 @@ body{
 
 #text-container{
     margin-top: 20%;
-    padding-left: 7%;
+    padding-left: 8%;
     display: block;
     display: flex;
     align-items: baseline;
@@ -101,6 +101,10 @@ body{
 
 .headerText-Black{
     margin: 20px;
+}
+
+.headerText-Purple{
+    font-size: 80pt;
 }
 
 
