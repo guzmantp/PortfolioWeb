@@ -86,3 +86,43 @@
     top: 40%;
 }
 
+
+
+
+@media only screen and (orientation: portrait), (max-width: 800px) {
+
+    #cuadroBlancoResaltado {
+        display: none;
+    }
+
+    #cuadroBlanco {
+        display: none;
+    }
+
+    #fotoMiaPrincipal{
+        height: 1100px;
+        right: 14%;
+    }
+
+    #indexMenu ul {
+        list-style-type: none;
+        position: absolute;
+        left: 18%;
+        top: 11%;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    #indexMenu li p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 110pt;
+        font-weight: 800;
+        display: block;
+        padding: 0px 0px;
+        margin: 0px;
+        text-decoration: none;
+        line-height: 1.2em;
+    }
+
+}
