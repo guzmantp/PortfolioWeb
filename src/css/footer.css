@@ -26,3 +26,20 @@ footer div {
     left: 5%;
     bottom: 10%;
 }
+
+
+
+@media only screen and (orientation: portrait), (max-width: 800px){
+    footer {
+        height: 250px; 
+    }
+
+    #footer_Foto {
+        height: 220px;
+        right: 5%;
+    }
+
+    #footer_Logo {
+        height: 50px;
+    }
+}

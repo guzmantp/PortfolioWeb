@@ -2,42 +2,32 @@ var button = document.getElementById("menu-button");
 var menu = document.getElementById('menu');
 var menuDisplay = false;
 var rs = menu.querySelectorAll("ul li a img");
-var indexMenu = document.getElementById("indexMenu");
 
-logos = [
+const logos = [
     "Linkedin_FullLogo.png",
     "Instagram_FullLogo.png"
 ];
-iconos = [
+const iconos = [
     "Linkedin_Icon.png",
     "Instagram_icon.png"
 ];
 
+var ruta = rs[0].src;
 
-
-
-if(window.getComputedStyle(button).display == "none"){
-    for(var i=0; i<rs.length; i++){
-        rs[i].src = rs[i].src + iconos[i];
+function logoReplace(){
+    if(window.getComputedStyle(button).display == "none"){
+        for(var i=0; i<rs.length; i++){
+            rs[i].src = ruta + iconos[i];
+        }
+    }else{
+        for(var i=0; i<rs.length; i++){
+            rs[i].src = ruta + logos[i]; 
+        }
     }
-
-    indexMenu.innerHTML = '<ul><li><a id="mainMenu-hola" href="src/proyectos.html">Hola</a></li><li><a id="mainMenu-soy" href="src/sobreMi.html">Soy</a></li><li><a id="mainMenu-guzman" href="src/miMundo.html">Guzmán</a></li></ul>';
-
-    console.log("ordenador");
-
-
-}else{
-    for(var i=0; i<rs.length; i++){
-        rs[i].src = rs[i].src + logos[i]; 
-    }
-
-    indexMenu.innerHTML = '<ul><li><p id="mainMenu-hola" href="src/proyectos.html">Hola</p></li><li><p id="mainMenu-soy" href="src/sobreMi.html">Soy</p></li><li><p id="mainMenu-guzman" href="src/miMundo.html">Guzmán</p></li></ul>';
-
-    console.log("movil");
-
 }
 
-
+logoReplace();
+window.addEventListener("resize", logoReplace);
 
 button.addEventListener("click", function(){
     if(menuDisplay){

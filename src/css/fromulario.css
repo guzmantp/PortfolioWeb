@@ -42,6 +42,30 @@
     outline: 0;
     background-color: rgba(255, 0, 191, 0.02);
     box-shadow: 0 0 0 0.2rem rgba(59, 0, 109, 0.25);
-    /*box-shadow: 0px 0px 30px rgba(238, 0, 255, 0.129);*/
+}
 
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+
+    .formGroup {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .formGroup label{
+        font-size: 9pt;
+    }
+
+    .input-box{
+        font-size: 10pt;
+        padding: 1%;
+        width: 98%;
+        border-width: 1px;
+        margin-top: 0;
+    }
+
+    .boton{
+        font-size: 12pt;
+    }
 }

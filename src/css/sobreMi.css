@@ -9,7 +9,6 @@ body{
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    
 }
 
 .block-containers{
@@ -108,3 +107,163 @@ body{
 }
 
 
+
+
+
+
+
+@media only screen and (max-width: 1800px) {
+    #fotoMia-Container {
+        left: 100px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 750px;
+    }
+
+    #p-container{
+        float: left;
+        width: 700px;
+        padding: 3%;
+        margin-top: 5%;
+        margin-bottom: 30%;
+        border-radius: 30px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+    #fotoMia-Container {
+        left: 100px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 650px;
+    }
+
+    #p-container{
+        float: left;
+        width: 500px;
+        padding: 3%;
+        margin-top: 5%;
+        margin-bottom: 30%;
+        border-radius: 30px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .headerText-Black{
+        font-size: 45pt;
+    }
+
+    .headerText-Purple{
+        font-size: 58pt;
+    }
+
+    .sobreMi-p{
+        font-size: 13pt;
+    }
+}
+
+
+
+@media only screen and (max-width: 1310px) {
+    #fotoMia-Container {
+        left: 60px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 600px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1145px) {
+    #left-container{
+        position: relative;
+        width: 0%;
+        float: left;
+    }
+    
+    #right-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    #text-container{
+        margin-top: 15%;
+        padding-left: 0%;
+    }
+
+    #p-container{
+        width: 700px;
+        margin-bottom: 0;
+    }
+
+    #fotoMiaPrincipal {
+        display: none;
+    }
+
+    .block-containers{
+        border-bottom-style: none;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+    #left-container{
+        position: relative;
+        width: 0%;
+        float: left;
+    }
+    
+    #right-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    #text-container{
+        margin-top: 15%;
+        padding-left: 0%;
+    }
+
+    #p-container{
+        width: 85%;
+        margin-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .block-containers{
+        border-bottom-style: none;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0);
+    }
+
+    .sobreMi-p{
+        font-size: 8pt;
+    }
+
+    .headerText-Black{
+        font-size: 32pt;
+        margin: 10px;
+    }
+
+    .headerText-Purple{
+        font-size: 43pt;
+    }
+
+    .p-module a{
+        font-size: 12pt;
+    }
+}

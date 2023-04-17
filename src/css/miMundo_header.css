@@ -45,3 +45,51 @@ header {
     width: 100%;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 1500px) {
+    .headerContainer {
+        height: 450px;
+    }
+
+    .headerText-Black{
+        font-size: 60pt;
+    }
+
+    .headerText-Purple{
+        font-size: 80pt;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .headerContainer {
+        height: 450px;
+    }
+
+    .headerText-Black{
+        font-size: 40pt;
+    }
+
+    .headerText-Purple{
+        font-size: 60pt;
+    }
+}
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+    .headerContainer {
+        padding-top: 50px;
+        height: 200px;
+    }
+
+    .headerText-Black{
+        font-size: 20pt;
+    }
+
+    .headerText-Purple{
+        font-size: 40pt;
+    }
+}

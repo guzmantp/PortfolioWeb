@@ -24,6 +24,15 @@
     margin: auto;
 }
 
+#Contacto-Title{
+    font-size: 70pt;
+}
+
+#Contacto-TitlePurple{
+    font-size: 85pt;
+    padding-left: 40px;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -68,4 +77,91 @@
 
 .tall{
     grid-row: span 2;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 100px;
+  }
+  
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+
+    #title-container{
+        width: auto;
+        text-align: center;
+        margin: auto;
+        margin-left: 0%;
+        padding-left: 0;
+    }
+    
+    #title-container div{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    #Contacto-Title{
+        font-size: 30pt;
+    }
+
+    #Contacto-TitlePurple{
+        font-size: 45pt;
+        padding-left: 0;
+    }
+
+    .header-item {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .grid-container{
+        margin: auto;
+        width: 100%;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(2, 46%);
+        grid-auto-rows: minmax(20px, 200px);
+        gap: 5px;
+        padding: 10px;
+        grid-auto-flow: dense;
+        justify-content: space-between;
+    }
+
+    .grid-item img{
+        border-radius: 5px;
+    }
+
+    .header-item img {
+        border-radius: 5px;
+    }
+
+    .video {
+        margin: 10px;
+      }
 }

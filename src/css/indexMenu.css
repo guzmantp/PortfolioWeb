@@ -68,8 +68,6 @@
     position: absolute;
     height: 145px;
     width: 100%;
-    top: 61%;
-
 }
 
 #cuadroBlancoResaltado {
@@ -89,7 +87,7 @@
 
 
 
-@media only screen and (orientation: portrait), (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
 
     #cuadroBlancoResaltado {
         display: none;
@@ -123,6 +121,25 @@
         margin: 0px;
         text-decoration: none;
         line-height: 1.2em;
+    }
+
+}
+
+
+@media only screen and (orientation: portrait), (max-width: 800px) {
+    #indexMenu ul {
+        left: 25%;
+        top: 13%;
+   
+    }
+
+    #indexMenu li p {
+        font-size: 40pt;
+    }
+
+    #fotoMiaPrincipal{
+        height: 420px;
+        right: 20%;
     }
 
 }
