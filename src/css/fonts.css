@@ -3,11 +3,117 @@
 * {
   list-style: none;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #262626;
+  font-size: 14pt;
+}
+
+.container-separator{
+  margin: 100px;
+  width: 650px;
 }
 
 nav ul li a {
-    font-family: 'Poppins', sans-serif;
+
     font-size: 14pt;
     font-weight: 400;
     color: #262626;
 }
+
+.headerText-Black {
+  font-size: 70pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.headerText-Purple {
+  font-size: 110pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+.MiMundo-TextI {
+  font-size: 70pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.MiMundo-TextPurpleI {
+  font-size: 110pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+.MiMundo-TextLastModule {
+  font-size: 60pt;
+  font-weight: 300;
+  color: #262626;
+  line-height: 110%;
+}
+
+.MiMundo-TextPurpleLastModule {
+  font-size: 80pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+#form-Container {
+  font-size: 20pt;
+  font-weight: 400;
+  color: #262626;
+  line-height: 110%;
+}
+
+#Contacto-Title{
+  font-size: 50pt;
+  font-weight: 300;
+  color: #262626;
+  line-height: 110%;
+}
+
+#Contacto-TitlePurple{
+  font-size: 55pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+  padding-left: 20px;
+}
+
+.sobreMi-p{
+  font-size: 15pt;
+}
+
+.tableTittle-Black{
+  font-size: 35pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.tableTittle-Purple{
+  margin-left: 15px;
+  font-size: 45pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+.ProyectosText-Black{
+  margin-left: 40px;
+  font-size: 90pt;
+  font-weight: 300;
+  color: #262626;
+}
+
+.ProyectosText-Purple{
+  font-size: 110pt;
+  font-weight: 700;
+  color: #3B006D;
+  line-height: 100%;
+}
+
+
+
+

@@ -1,72 +1,213 @@
 nav {
-    height: 25px;
+  height: 25px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.logo img {
+  height: 30px;
+  padding-left: 80px;
+}
+
+.smIcon {
+  height: 20px;
+}
+
+#menu ul {
+  display: flex;
+  padding-right: 100px;
+}
+
+#menu li {
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+#menu li ul {
+  padding: 0px;
+  padding-right: 60px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu li:hover ul {
+  display: block;
+}
+
+#menu li ul li {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+#menu .navMenu-li:hover {
+  background-color: #3B006D;
+}
+
+#menu li:hover > a {
+  color: #ffffff;
+  font-size: 15pt;
+  font-weight: 200;
+}
+
+#menu-button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  margin-left: 25px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+@media screen and (max-width: 1100px) {
+  
+  nav {
+    height: 40px;
+  }
+
+  .logo img {
+    height: 30px;
+    padding-left: 0;
+    margin-right: 35px;
+  }
+
+  #menu-button {
     display: flex;
+  }
+
+  #menu-button img{
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+  }
+
+  #menu-button:hover > img{
+    opacity: 50%;
+    padding: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  }  
+
+  #menu {
+    display: none;
     position: fixed;
-    top: 0;
+    top: 70px;
     left: 0;
     right: 0;
-    z-index: 9999;
-    justify-content: space-between;
-    align-items: center;
     background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .smIcon {
+    height: 30px;
+  }
+
+  #menu ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #menu li {
+    text-align: left;
+    padding: 25px;
+  }
+
+  #menu li a{
+    font-size: 20pt;
+    margin-left: 10%;
+  }
+
+  #menu li ul {
+    padding: 0px;
+    padding-right: 60px;
+    display: none;
+    top: 100%;
+    left: 50%;
+    background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+  }
+  
+  #menu li ul li {
+    display: none;
+  }
+  
+  #menu .navMenu-li:hover {
+    background-color: #3B006D;
+  }
+  
+  #menu li:hover > a {
+    color: #ffffff;
+    font-size: 20pt;
+    font-weight: 200;
+  }
+
+}
+
+    
+@media only screen and (orientation: portrait), (max-width: 600px) {
+  
+  nav {
+    height: 20px;
+  }
+
+  #menu {
+    top: 50px;
   }
   
   .logo img {
-    height: 30px;
-    padding-left: 80px;
+    height: 25px;
+  }
+
+  #menu-button:hover > img{
+    opacity: 50%;
+    padding: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0);
+  }  
+
+  #menu-button img{
+    height: 25px;
+  }
+
+  #menu li{
+    padding: 10px;
+  }
+
+  #menu li a{
+    font-size: 12pt;
+  }
+
+  #menu li:hover > a {
+    font-size: 12pt;
   }
 
   .smIcon {
     height: 20px;
   }
-  
-  .menu ul {
-    display: flex;
-    padding-right: 100px;
-  }
-  
-  .menu li {
-    padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-  }
-  
-  .menu li ul {
-    padding: 0px;
-    padding-right: 60px;
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .menu li:hover ul {
-    display: block;
-  }
-  
-  .menu li ul li {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-  }
-  
-  .menu .navMenu-li:hover {
-    background-color: #3B006D;
-  }
 
-  .menu li:hover > a {
-    color: #ffffff;
-    font-size: 15pt;
-    font-weight: 200;
-  }
+
+}
+
+
 
   

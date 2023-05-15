@@ -1,0 +1,71 @@
+
+
+.boton{
+    background-color: #3b006d;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15pt;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.boton:hover{
+    background-color: #5c00ad;
+}
+
+.formGroup {
+    width: 600px;
+    margin-top: 10px;
+}
+
+.input-box{
+    font-size: 12pt;
+    padding: 1%;
+    width: 98%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #760072;
+    border-style: solid;
+    margin-top: 1%;
+    transition: border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.input-box:focus{
+    border-color: #3b006d;
+    outline-color: #3b006d;
+    outline-style: solid;
+    outline-width: 3px;
+    outline: 0;
+    background-color: rgba(255, 0, 191, 0.02);
+    box-shadow: 0 0 0 0.2rem rgba(59, 0, 109, 0.25);
+}
+
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+
+    .formGroup {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .formGroup label{
+        font-size: 9pt;
+    }
+
+    .input-box{
+        font-size: 10pt;
+        padding: 1%;
+        width: 98%;
+        border-width: 1px;
+        margin-top: 0;
+    }
+
+    .boton{
+        font-size: 12pt;
+    }
+}

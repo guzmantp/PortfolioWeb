@@ -1,0 +1,269 @@
+
+body{
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+#quienSoy-Container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.block-containers{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-color: rgb(241, 241, 241);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+#left-container{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#right-container{
+    position: relative;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+
+#tables{
+    margin: auto;
+    height: auto;
+    width: 80%;
+    background-color: aqua;
+}
+
+#fotoMia-Container {
+    position: fixed;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    left: 200px;
+    bottom: 0%;
+}
+
+#fotoMiaPrincipal {
+    position: absolute;
+    margin: 0%;
+    height: 800px;
+    bottom: 0px;
+    left: 0;
+}
+
+#table-container{
+    z-index: 20;
+    background-color: white;
+    height: 800px;
+    width: 100%;
+}
+
+#text-container{
+    margin-top: 20%;
+    padding-left: 8%;
+    display: block;
+    display: flex;
+    align-items: baseline;
+}
+
+#p-container{
+    float: left;
+    width: 800px;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.p-module{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.p-module a{
+    font-size: 20pt;
+    padding: 5%;
+    font-weight: 600;
+    color: #3B006D;;
+}
+
+.headerText-Black{
+    margin: 20px;
+}
+
+.headerText-Purple{
+    font-size: 80pt;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1800px) {
+    #fotoMia-Container {
+        left: 100px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 750px;
+    }
+
+    #p-container{
+        float: left;
+        width: 700px;
+        padding: 3%;
+        margin-top: 5%;
+        margin-bottom: 30%;
+        border-radius: 30px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+    #fotoMia-Container {
+        left: 100px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 650px;
+    }
+
+    #p-container{
+        float: left;
+        width: 500px;
+        padding: 3%;
+        margin-top: 5%;
+        margin-bottom: 30%;
+        border-radius: 30px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .headerText-Black{
+        font-size: 45pt;
+    }
+
+    .headerText-Purple{
+        font-size: 58pt;
+    }
+
+    .sobreMi-p{
+        font-size: 13pt;
+    }
+}
+
+
+
+@media only screen and (max-width: 1310px) {
+    #fotoMia-Container {
+        left: 60px;
+    }
+
+    #fotoMiaPrincipal {
+        height: 600px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1145px) {
+    #left-container{
+        position: relative;
+        width: 0%;
+        float: left;
+    }
+    
+    #right-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    #text-container{
+        margin-top: 15%;
+        padding-left: 0%;
+    }
+
+    #p-container{
+        width: 700px;
+        margin-bottom: 0;
+    }
+
+    #fotoMiaPrincipal {
+        display: none;
+    }
+
+    .block-containers{
+        border-bottom-style: none;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+    #left-container{
+        position: relative;
+        width: 0%;
+        float: left;
+    }
+    
+    #right-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    #text-container{
+        margin-top: 15%;
+        padding-left: 0%;
+    }
+
+    #p-container{
+        width: 85%;
+        margin-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .block-containers{
+        border-bottom-style: none;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0);
+    }
+
+    .sobreMi-p{
+        font-size: 8pt;
+    }
+
+    .headerText-Black{
+        font-size: 32pt;
+        margin: 10px;
+    }
+
+    .headerText-Purple{
+        font-size: 43pt;
+    }
+
+    .p-module a{
+        font-size: 12pt;
+    }
+}
