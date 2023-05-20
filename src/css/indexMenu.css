@@ -1,0 +1,145 @@
+
+#main{
+    background-color: rgb(255, 184, 184);
+}
+
+#indexMenu li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 110pt;
+    font-weight: 800;
+}
+
+#mainMenu-hola {
+    color: #262626;
+}
+
+#mainMenu-soy, #mainMenu-guzman {
+    color: #3B006D;
+}
+
+#mainMenu-hola:hover {
+    content: "Proyectos";
+}
+#mainMenu-soy:hover {
+    content: "Sobre mi";
+}
+#mainMenu-guzman:hover {
+    content: "Mi mundo";
+}
+
+#menuContainer div{
+    background-color: aqua;
+}
+
+#fotoMiaPrincipal{
+    height: 850px;
+    position: absolute;
+    bottom: 0%;
+    right: 14%;
+
+}
+
+#indexMenu ul {
+	list-style-type: none;
+    position: absolute;
+    left: 22%;
+    top: 22%;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+#indexMenu li {
+	padding: 0px;
+    margin: 0px;
+}
+
+#indexMenu li a {
+	display: block;
+	padding: 0px 0px;
+    margin: 0px;
+	text-decoration: none;
+    line-height: 1.2em;
+}
+
+#cuadroBlanco {
+    background-color: white;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    height: 145px;
+    width: 100%;
+}
+
+#cuadroBlancoResaltado {
+    position: absolute;
+    height: 145px;
+    width: 100%;
+}
+
+
+#mainMenu-hola:hover > #cuadroBlancoResaltado {
+    top: 25%;
+}
+#mainMenu-soy:hover > #cuadroBlancoResaltado{
+    top: 40%;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    #cuadroBlancoResaltado {
+        display: none;
+    }
+
+    #cuadroBlanco {
+        display: none;
+    }
+
+    #fotoMiaPrincipal{
+        height: 1100px;
+        right: 14%;
+    }
+
+    #indexMenu ul {
+        list-style-type: none;
+        position: absolute;
+        left: 18%;
+        top: 11%;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    #indexMenu li p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 110pt;
+        font-weight: 800;
+        display: block;
+        padding: 0px 0px;
+        margin: 0px;
+        text-decoration: none;
+        line-height: 1.2em;
+    }
+
+}
+
+
+@media only screen and (orientation: portrait), (max-width: 800px) {
+    #indexMenu ul {
+        left: 25%;
+        top: 13%;
+   
+    }
+
+    #indexMenu li p {
+        font-size: 40pt;
+    }
+
+    #fotoMiaPrincipal{
+        height: 420px;
+        right: 20%;
+    }
+
+}

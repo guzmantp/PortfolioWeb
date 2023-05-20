@@ -1,0 +1,45 @@
+footer {
+    background-color: rgb(16, 16, 16);
+    height: 450px;
+    max-height: 450px;
+    display: flex;
+    
+}
+
+footer div {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+#footer_Foto {
+    height: 420px;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
+
+#footer_Logo {
+    height: 120px;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+
+
+@media only screen and (orientation: portrait), (max-width: 800px){
+    footer {
+        height: 250px; 
+    }
+
+    #footer_Foto {
+        height: 220px;
+        right: 5%;
+    }
+
+    #footer_Logo {
+        height: 50px;
+    }
+}

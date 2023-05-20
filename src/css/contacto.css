@@ -1,0 +1,64 @@
+.container-form{
+    margin: auto;
+    width: 750px;
+    height: auto;
+    text-align: left;
+    display: block;
+}
+
+#title-container{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    margin-left: 0%;
+    padding-left: 0;
+}
+
+#title-container div{
+    display: inline-flex;
+    align-items: baseline;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.container-separator{
+    margin: 100px;
+    width: 650px;
+}
+
+#form-Container {
+    margin: auto;
+    width: 600px;
+}
+
+
+
+@media only screen and (orientation: portrait), (max-width: 600px) {
+
+    #title-container div{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    #form-Container {
+        width: 90%;
+    }
+
+    .container-form{
+        width: 100%;
+    }
+
+    #Contacto-Title{
+        font-size: 27pt;
+    }
+
+    #Contacto-TitlePurple{
+        font-size: 45pt;
+        padding-left: 0px;
+    }
+
+}
