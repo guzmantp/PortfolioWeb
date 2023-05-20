@@ -1,31 +1,128 @@
 footer {
     background-color: rgb(16, 16, 16);
     height: 450px;
+    width: 100%;
     max-height: 450px;
-    display: flex;
-    
+    box-sizing: border-box;
 }
 
-footer div {
+#footerContainer {
     height: 100%;
-    width: 1200px;
-    margin: auto;
-    position: relative;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-leftPanel{
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(185, 185, 185);
+}
+
+#footer-rightPanel{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#quickLinks{
+    box-sizing: border-box;
+    height: 70%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#quickLinks-links{
+    box-sizing: border-box;
+    width: 250px;
+    margin-right: 100px;
+}
+
+#quickLinks-links ul li ul{
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#quickLinks li{
+    margin-bottom: 15px;
+}
+
+#quickLinks-socialMedia{
+    box-sizing: border-box;
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#footer-fotoContainer{
+    box-sizing: content-box;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#footer-logoContainer{
+    box-sizing: border-box;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
 }
 
 #footer_Foto {
     height: 420px;
-    position: absolute;
-    right: 5%;
-    bottom: 0%;
 }
 
 #footer_Logo {
-    height: 120px;
-    position: absolute;
-    left: 5%;
-    bottom: 10%;
+    height: 80px;
 }
+
+.footer_icons{
+    filter: brightness(800%);
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.footer_icons:hover{
+    filter: brightness(1000%);
+}
+
+#quickLinks-links li:hover{
+    border-left-style: solid;
+    border-left-color: rgb(235, 235, 235);
+    border-left-width: 1px;
+    padding-left: 20px;
+}
+
+#quickLinks-links li:hover > a{
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+}
+
+#goUp{
+    position: absolute;
+    bottom: 0%;
+    right: ;
+}
+
+
+/* -------------- Quick Links ------------- */
+/* Pos */
+
+
+/* Style */
+
 
 
 
