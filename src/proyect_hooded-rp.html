@@ -14,16 +14,19 @@
             }
         </style>
 
-    </head>
-    <body>
-
         <!--CSS Imports-->
         <link rel="stylesheet" href="css/navMenu.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/proyect-page.css">
+        <link rel="stylesheet" href="css/imageGalery.css">
 
+        <!-- SCRIPTS JS -->
+        <script type="text/javascript" src="JS/nav-hiddenMenu.js" defer></script>
+        <script type="text/javascript" src="JS/imageGalery.js" defer></script>
 
+    </head>
+    <body>
         <nav>
             <button id="menu-button">
                 <img src="images/menu-burger.png" alt="">
@@ -66,24 +69,19 @@
 
             <div class="header-item"><img src="images/HoodedRP/BannerFiveM_Preview_001.png" alt=""></div>
 
-            <div class="grid-container">
-                <div class="grid-item"><img src="images/HoodedRP/Animales.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/Captura_3.JPG" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/Edificio_de_Trabajo_ConceptArt_001.jpg" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/GraciasPorTodoZeppelin.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/hoodedrp_gift_icono_discord_FIXED.gif" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/HoodedRP_R2_001.JPG" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/HoodedRP_R2_002.jpg" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/HoodedRP_R2_003.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item wide"><img src="images/HoodedRP/HoodedRP_R2_004.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Insta-03-07-2021_001.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Insta-05-07-2021_001.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Insta-29-06-2021_001.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Insta-29-06-2021_002.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Insta-30-06-2021_001.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Logo_Insta.png" alt="HoodedRP GTA Roleplay"></div>
-                <div class="grid-item"><img src="images/HoodedRP/Logotipos_Propuesta_003.png" alt="HoodedRP GTA Roleplay"></div>
+            <div class="overlay">
+                <div class="slideshow">
+                    <span class="btn_close"><img src="images/cross-small.svg" alt=""></span>
+                    <div class="btn_slideBack">
+                        <img src="images/angle-small-left.svg" alt="">
+                    </div>
+                    <div class="btn_slideNext">
+                        <img src="images/angle-small-right.svg" alt="">
+                    </div>
+                    <img class="image-slideShow" src="" alt="">
+                </div>
             </div>
+            <div id="galery"></div> 
 
 
        </div>
@@ -128,9 +126,6 @@
         </footer>
 
         <div id="goUp"><a href="#goUp-pointer"><img src="images/angle-small-up.png" alt=""></a></div>
-
-        <!-- SCRIPTS JS -->
-        <script type="text/javascript" src="JS/nav-hiddenMenu.js"></script>
 
     </body>
 </html>

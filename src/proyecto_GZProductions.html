@@ -22,6 +22,11 @@
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/proyect-page.css">
+        <link rel="stylesheet" href="css/imageGalery.css">
+
+        <!-- SCRIPTS JS -->
+        <script type="text/javascript" src="JS/nav-hiddenMenu.js" defer></script>
+        <script type="text/javascript" src="JS/imageGalery.js" defer></script>
 
 
         <nav>
@@ -66,42 +71,19 @@
 
             <div class="header-item"><a href="https://www.youtube.com/@gzproductions9629/featured"><img src="images/GZProductions/BannerGZProductions.png" alt=""></a></div>
 
-            <div class="grid-container">
-                <div class="grid-item"><img src="images/GZProductions/GZLogo_GreyBG.jpg" alt="GZ Productions Logo"></div>
-                <div class="grid-item"><img src="images/GZProductions/GZProductions_PartyMix2_RenderCabezas.jpg" alt="GZ Productions Moving Heads"></div>
-                <div class="grid-item"><img src="images/GZProductions/GZProductions_PArtyMix2_FullEquip.jpg" alt="GZ Productions Fixtures"></div>
-                <div class="grid-item"><img src="images/GZProductions/GZProductions_PArtyMix2_FullEquip_Views.jpg" alt="GZ Productions Fixtures"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix1_Viewport_001.jpg" alt="GZ Productions PartyMix 1 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix1_Viewport_002.jpg" alt="GZ Productions PartyMix 1 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix1_Viewport_003.jpg" alt="GZ Productions PartyMix 1 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix1_Viewport_004.jpg" alt="GZ Productions PartyMix 1 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix1_Viewport_005.jpg" alt="GZ Productions PartyMix 1 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Render_Miniatura.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Render_001.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Render_002.2.png" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Render_003.png" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Render_Miniatura.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Miniatura.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions1_PubliInsta.gif" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions1_ScenesPreview.gif" alt="GZ Productions"></div>
-        
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_001.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_002.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_003.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_004.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_005.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_006.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_007.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions_PartyMix2_ViewPort_008.jpg" alt="GZ Productions PartyMix 2 MakingOff"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/Miniatura_PartyMix2.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions2_PubliInsta.gif" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/GZProductions2_ScenesPreview.gif" alt="GZ Productions"></div>
-
-                <div class="grid-item wide"><img src="images/GZProductions/SummerMix2020_Miniatura.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/SummerMix2020_Viewport_001.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/SummerMix2020_Viewport_002.jpg" alt="GZ Productions"></div>
-                <div class="grid-item wide"><img src="images/GZProductions/SummerMix2020_Viewport_003.jpg" alt="GZ Productions"></div>
+            <div class="overlay">
+                <div class="slideshow">
+                    <span class="btn_close"><img src="images/cross-small.svg" alt=""></span>
+                    <div class="btn_slideBack">
+                        <img src="images/angle-small-left.svg" alt="">
+                    </div>
+                    <div class="btn_slideNext">
+                        <img src="images/angle-small-right.svg" alt="">
+                    </div>
+                    <img class="image-slideShow" src="" alt="">
+                </div>
             </div>
+            <div id="galery"></div> 
 
             <div class="video">
                 <video src="videos/GZPartyMix2_PubliInsta_Normal.mp4" controls></video>
