@@ -12,7 +12,6 @@ var imgIndex = 0;
 
 createLayout();
 
-console.log(imgIndex);
 
 const galeryImgs = document.querySelectorAll('#galery img');
 
@@ -23,7 +22,6 @@ Array.from(galeryImgs).forEach(img => {
         slideshowImg.src = getPath(imgIndex);
         overlay.style.visibility = 'visible';
         overlay.style.opacity = "100%";
-        console.log(imgIndex);
     })
 })
 
